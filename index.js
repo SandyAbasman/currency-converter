@@ -1,7 +1,7 @@
 let num = 1
 
-let num2 = 3
+let num2 = 34
 
 
-console.log("Joseph")
+console.log("new")
 
