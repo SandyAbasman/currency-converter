@@ -12,4 +12,3 @@ convertButton.addEventListener("click", function(){
         }
     
 })
-
