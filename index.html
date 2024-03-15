@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="cta-container">
-                    <button class="cta">Convert Now</button>
+                    <button id="convertNow" class="cta">Convert Now</button>
                 </div>
 
             </div>
@@ -51,19 +51,31 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal-container">
+        <div  id="modal" class="modal-container">
             <h2>Currency Converter</h2> 
 
             <div class="modal-body">
             <div class="top-modal-body">
             <div class="top-left">
                 <label for="currency">Convert currency from</label>
-                <button class="icon-button">Currency<i class="fa-solid fa-caret-down"></i></button>
+                <button class="icon-button">Currency<select class="drop-down"> 
+                    <option value=""></option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="NGN">NGN</option>  
+                </select></button>
             </div>
 
             <div class="top-middle">
                 <label for="currency">Convert currency to</label>
-                <button class="icon-button">Currency<i class="fa-solid fa-caret-down"></i></button>
+                <button class="icon-button">Currency<select class= "drop-down-2">
+                    <option value=""></option>
+                    <option value="USD-2">USD</option>
+                    <option value="GBP-2">GBP</option>
+                    <option value="EUR-2">EUR</option>
+                    <option value="NGN-2">NGN</option>  
+                </select></button>
             </div>
 
             <div class="top-right">

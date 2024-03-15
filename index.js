@@ -1,7 +1,15 @@
-let num = 1
+let convertButton = document.getElementById("convertNow")
+let modal = document.getElementById("modal")
 
-let num2 = 34
 
-
-console.log("new")
+convertButton.addEventListener("click", function(){
+    if(modal.classList.contains("modal-container")){
+        modal.classList.remove("modal-container")
+        modal.classList.add("modal-container-visible")
+    }else if (modal.classList.contains("modal-container-visible")){
+            modal.classList.remove("modal-container-visible")
+            modal.classList.add("modal-container")
+        }
+    
+})
 
